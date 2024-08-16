@@ -18,7 +18,7 @@ python-box==6.0.2            # For working with hierarchical data structures
 ensure==1.0.2                # For Python package version management
 fastapi==0.78.0              # Fast API for building APIs with Python
 uvicorn==0.18.3              # ASGI server for serving FastAPI applications
-jinja2==3.1.2                 # Templating engine used with FastAPI
+jinja2==3.1.2                # Templating engine used with FastAPI
 
 # Install the current package in editable mode
 -e .                         # Install the package in editable mode from the local directory
