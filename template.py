@@ -29,7 +29,8 @@ list_of_files = [
     "requirements.txt",  # List of dependencies needed for the project.
     "setup.py",  # Setup script for packaging and distributing the project.
     "research/trials.ipynb",  # Jupyter notebook for research and experimentation.
-    "test.py" # Script for unit testing or running simple test cases for the project.
+    "test.py", # Script for unit testing or running simple test cases for the project.
+    ".env"
 ]
 
 # Iterate over each file path in the list.
