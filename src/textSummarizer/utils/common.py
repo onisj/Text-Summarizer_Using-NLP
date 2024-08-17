@@ -41,18 +41,19 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
 
 
 @ensure_annotations
-def create_dictionaries(path_to_dictionaries: List[Path], verbose=True):
+def create_directories(path_to_directories: list, verbose=True):
     """Creates directories specified in the list.
 
     Args:
-        path_to_dictionaries (List[Path]): List of paths where directories should be created. 
+        path_to_directories (List[Path]): List of paths where directories should be created. 
                                            Each path should be a Path object.
         verbose (bool, optional): If True, logs the creation of each directory. Defaults to True.
     """
-    for path in path_to_dictionaries:
+    for path in path_to_directories:
         os.makedirs(path, exist_ok=True)  # Create the directory if it does not exist
         if verbose:
             logger.info(f"Directory created at: {path}")
+
 
 
 
