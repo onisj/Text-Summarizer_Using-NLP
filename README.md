@@ -108,6 +108,7 @@ Email: elyxir4lyf@hotmail.com
 
 	sudo apt-get upgrade
 	
+	
 	#required
 
 	curl -fsSL https://get.docker.com -o get-docker.sh
@@ -119,7 +120,8 @@ Email: elyxir4lyf@hotmail.com
 	newgrp docker
 	
 ### 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
+   
+    setting > actions > runner > new self hosted runner > choose os > then run command specified one by one
 
 
 ### 7. Setup github secrets:
